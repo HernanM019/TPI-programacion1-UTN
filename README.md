@@ -34,8 +34,7 @@ El menú principal ofrece las siguientes opciones:
 ## ▶️ Instrucciones de uso
 
 ### 1. Requisitos previos
-- **Python 3.10 o superior.**  
-  (La versión 3.10 es necesaria para el uso de la estructura `match/case`).
+- **Python 3.10 o superior.**
 - No requiere librerías externas: usa únicamente el módulo estándar `csv` y `os`.
 
 ### 2. Ejecución

@@ -275,7 +275,7 @@ def estadisticas(paises):
 
 def mostrar_lista(lista):
     if len(lista) == 0:
-        print("⚠ No hay resultados.")
+        print("No hay resultados.")
     else:
         for p in lista:
             print("- ", p["nombre"], "| Población:", p["poblacion"], "| Superficie:", p["superficie"], "|", p["continente"])
@@ -294,7 +294,12 @@ def asegurar_csv_base(ruta=CSV_PATH):
 # ------------------------ Menú principal ---------------------- #
 
 def menu():
+    # Verifica si existe el archivo paises.csv.
+    # Si no existe, lo crea automáticamente con los países de ejemplo.
+    # Esto asegura que el programa siempre tenga datos válidos al iniciarse.
     asegurar_csv_base()
+
+    #Carga el contenido del archivo paises.csv en una lista de diccionarios.
     paises = cargar_csv()
 
     while True:
@@ -338,3 +343,5 @@ def menu():
                 mostrar_lista(paises)
             case _:
                 print("ERROR. Opción inválida.")
+
+menu()

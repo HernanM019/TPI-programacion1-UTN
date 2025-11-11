@@ -338,6 +338,3 @@ def menu():
                 mostrar_lista(paises)
             case _:
                 print("ERROR. Opción inválida.")
-
-if __name__ == "__main__":
-    menu()

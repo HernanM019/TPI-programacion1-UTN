@@ -1,9 +1,9 @@
-# 📘 Trabajo Práctico Integrador — Programación 1  
+# Trabajo Práctico Integrador — Programación 1  
 **Universidad Tecnológica Nacional (UTN) — Grupo 170**
 
 ---
 
-## 🧩 Descripción del programa
+## Descripción del programa
 
 El presente proyecto consiste en un sistema de **gestión de países** desarrollado en lenguaje **Python**, que permite **leer, registrar, actualizar y analizar información** sobre distintos países utilizando **estructuras de datos básicas** (listas y diccionarios) y archivos **CSV** para la persistencia de datos.
 
@@ -12,7 +12,7 @@ Se diseñó respetando los lineamientos del **Trabajo Práctico Integrador de Pr
 
 ---
 
-## ⚙️ Funcionalidades principales
+## Funcionalidades principales
 
 El menú principal ofrece las siguientes opciones:
 
@@ -31,7 +31,7 @@ El menú principal ofrece las siguientes opciones:
 
 ---
 
-## ▶️ Instrucciones de uso
+## Instrucciones de uso
 
 ### 1. Requisitos previos
 - **Python 3.10 o superior.**
